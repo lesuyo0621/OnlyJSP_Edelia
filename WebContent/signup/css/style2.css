@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0px;
+  padding: 100px;
+  background: url('../images/header.jpg');
+  font-size: 16px;
+  color: #222; 
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+#login-box {
+  position: relative;
+  margin: 5% auto;
+  width: 400px;
+  height: 400px; /* 전체높이 */
+  background: #FFF;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding-top: 40px;
+  padding-left: 20px;
+  width: 3000px;
+  height: 400px;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+  padding-left: 20px;
+}
+
+button.btnstyle2 {
+  z-index: -1;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  width: 150px;
+  height: 250px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  transition: 0.2s ease;
+  cursor: pointer;
+  background: #55ACEE;
+  background-image: url('../images/person.jpg');
+  background-repeat: no-repeat;
+  background-size: 90% 51%;
+  background-position: center bottom;
+}
+button.btnstyle2:hover,
+button.btnstyle2:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.btnstyle2:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+.or {
+  position: absolute;
+  top: 180px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+  background: #DDD;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  line-height: 40px;
+  text-align: center;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding-top: 12.5px;
+  padding-right: 20px;
+  width: 200x;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 2px 2px 0;
+}
+
+button.btnstyle {
+  margin-top: 90px;
+  margin-right: 17px;
+  width: 150px;
+  height: 250px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  transition: 0.2s ease;
+  cursor: pointer;
+  background: #DD4B39;
+  background-image: url('../images/company.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 80% 55%;
+}
+button.btnstyle:hover,
+button.btnstyle:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.btnstyle:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
